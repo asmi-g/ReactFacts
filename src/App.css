@@ -1,5 +1,14 @@
-.App {
-  text-align: center;
+.App-header{
+  background-color: #282D35;
+  min-height: 100vh;
+  
+}
+
+.background{
+  background-image: url("./images/reactjs-icon\ 2.png");
+  background-position: right 75%;
+  background-repeat: no-repeat;
+ 
 }
 
 .App-logo {
@@ -13,16 +22,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +35,77 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21222A;
+  padding: 30px 25px;
+  height: 90px;
+}
+
+.app-logo{
+  height: 30px;
+  margin-right: 7px;
+}
+
+nav>h3, nav>h4{
+  margin: 0;
+}
+
+.text-logo{
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav-text{
+  display: flex;
+  justify-content: flex-end;
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+.body-title{
+  width: 424px;
+  height: 41px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 46px;
+}
+
+.info-list{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 46px;
+  max-width: 400px;
+  
+}
+
+.list-point{
+  padding-bottom: 20px;
+}
+
+.body-content{
+  margin-left: 30px;
+  
+}
+
+::marker{
+  color:  #61DAFB;
+  font-size: 1.4em;
 }
